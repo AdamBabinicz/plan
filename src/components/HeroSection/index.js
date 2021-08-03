@@ -89,9 +89,11 @@ const HeroSection = () => {
                 zupełnie inne niż nasze. Że nawet dla takich osób nadal jest
                 nadzieja."
               </p>
-              <p>
-                <em>https://www.chlebznieba.pl/index.php?id=929</em>
-              </p>
+              <a href="https://www.chlebznieba.pl/index.php?id=929">
+                <p>
+                  <em>www.chlebxnieba.pl</em>
+                </p>
+              </a>
             </TextWrap>
             <ButtonWrap>
               <LinkBtn to="/Blog" primary="true">

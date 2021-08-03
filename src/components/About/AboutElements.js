@@ -35,8 +35,8 @@ export const Row = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     width: 100%;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
     position: relative;
   }
 `;
@@ -63,7 +63,7 @@ export const BlogHeading = styled.h3`
   }
 
   @media (max-width: 380px) {
-    line-height: 1.2rem;
+    line-height: 2.4rem;
   }
 `;
 

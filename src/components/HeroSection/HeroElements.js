@@ -43,12 +43,12 @@ export const TextWrap = styled.div`
     line-height: normal;
   }
   h4 {
-    color: #006;
+    color: #000;
     font-size: 2rem;
     font-weight: 600;
   }
   p {
-    color: #1944ab;
+    color: #000;
     font-size: 1.7rem;
     font-weight: 300;
     line-height: 3rem;
