@@ -13,6 +13,13 @@ export const HeadingText = styled.h3`
   margin-left: 7rem;
   margin-bottom: 3rem;
 
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 2rem;
+      color: green;
+    }
+  }
+
   span {
     color: #f54748;
     margin-left: 1rem;
@@ -50,15 +57,15 @@ export const BlogContent = styled.div`
   flex: 1 1 50%;
 `;
 
-export const BlogHeading = styled.h3`
-  padding-top: 3rem;
+export const BlogHeading = styled.h4`
+  padding-top: 2rem;
   color: #333;
   font-size: 3.2rem;
   line-height: 4rem;
   font-weight: 600;
 
   @media (max-width: 991px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0;
   }
 
