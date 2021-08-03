@@ -84,7 +84,7 @@ const Footer = () => {
             <FooterMenu>
               <FooterLink to="Home">
                 <MdChevronRight />
-                Home
+                Start
               </FooterLink>
               {/* <FooterLink to="/">
                 <MdChevronRight />

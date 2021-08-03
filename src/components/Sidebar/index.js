@@ -37,7 +37,7 @@ const Sidebar = (props) => {
             </SidebarLink>
             <SidebarLink to="/Comment" onClick={props.toggle}>
               <AiFillProfile />
-              Komentarz
+              Słowo
             </SidebarLink>
             <SidebarLink to="/Blog" onClick={props.toggle}>
               <AiOutlineProfile />

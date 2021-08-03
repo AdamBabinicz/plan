@@ -2,14 +2,18 @@ import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
 
 export const CommentSection = styled.div`
-  padding-top: 7rem;
+  /* padding-top: 7rem; */
+  margin-top: 3rem;
   padding-bottom: 3rem;
-  margin-top: 5rem;
 `;
 
 export const CommentHeading = styled.h1`
-  font-size: 4rem;
+  font-size: 3rem;
   padding: 2rem 5%;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 export const CommentWrap = styled.div`

@@ -11,6 +11,10 @@ export const MarketingHeading = styled.h3`
   font-size: 3rem;
   padding: 2rem 5%;
   font-weight: 700;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 export const MarketingWrap = styled.div`
@@ -34,10 +38,15 @@ export const Img = styled.img`
 
 export const MarketingContent = styled.div`
   h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     padding-bottom: 2rem;
     font-weight: 600;
     line-height: 4rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.6rem;
+      padding-bottom: 0.2rem;
+    }
   }
   h5 {
     color: grey;
@@ -52,6 +61,7 @@ export const MarketingContent = styled.div`
 
     @media (max-width: 991px) {
       line-height: 2.5rem;
+      font-size: 1.5rem;
     }
   }
 `;
