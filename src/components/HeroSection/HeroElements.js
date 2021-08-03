@@ -36,14 +36,14 @@ export const Col = styled.div`
 
 export const TextWrap = styled.div`
   h3 {
-    color: #000;
+    color: #333;
     font-size: 3rem;
     font-weight: 700;
     padding: 0;
     line-height: normal;
   }
   h4 {
-    color: #000;
+    color: #333;
     font-size: 2rem;
     font-weight: 600;
   }
