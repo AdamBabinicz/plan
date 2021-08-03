@@ -58,6 +58,7 @@ export const TextWrap = styled.div`
   @media (max-width: 768px) {
     h3 {
       font-size: 2rem;
+      margin-top: 1rem;
     }
     h4 {
       font-size: 1.5rem;
