@@ -21,7 +21,7 @@ const Marketing = () => {
               "Cały depozyt boskości masz w swoim wnętrzu. Duch Święty
               zamieszkał w tobie, stałeś się świątynią Ducha Świętego. Te skarby
               mądrości i umiejętności, te skarby związane z mocą z autorytetem,
-              z mądrością, z rozeznawaniem te skarby ze zdolnością do tworzenia
+              z mądrością, z rozeznawaniem, te skarby ze zdolnością do tworzenia
               nowych rzeczy, te umiejętności stwarzania są w twoim wnętrzu, bo
               Duch Święty mieszka w tobie. Masz siłę i moc, którą czas ujawnić."
             </p>
