@@ -64,7 +64,7 @@ export const BlogHeading = styled.h4`
 
   @media (max-width: 991px) {
     font-size: 1.6rem;
-    padding: 0;
+    padding-top: 1rem;
   }
 
   @media (max-width: 380px) {
