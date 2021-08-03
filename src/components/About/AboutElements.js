@@ -12,12 +12,10 @@ export const HeadingText = styled.h3`
   line-height: 2;
   margin-left: 7rem;
   margin-bottom: 3rem;
+  color: #333;
 
   @media (max-width: 768px) {
-    h3 {
-      font-size: 2rem;
-      color: green;
-    }
+    font-size: 2rem;
   }
 
   span {
@@ -65,7 +63,7 @@ export const BlogHeading = styled.h4`
   font-weight: 600;
 
   @media (max-width: 991px) {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 0;
   }
 
@@ -89,7 +87,7 @@ export const BlogDate = styled.h5`
 
 export const BlogDesc = styled.p`
   color: #212222;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   line-height: 3rem;
   font-weight: 300;
 `;

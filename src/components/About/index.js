@@ -17,9 +17,7 @@ const About = () => {
     <>
       <AboutSection id="/About">
         <HeadingText>
-          <h3>
-            Jaka<span>jest?</span>
-          </h3>
+          Jaka<span>jest?</span>
         </HeadingText>
         <AboutContainer>
           <Row>
