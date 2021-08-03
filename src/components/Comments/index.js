@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Popup from "../Popup";
 import {
   CommentSection,
   CommentHeading,
@@ -18,8 +19,24 @@ import {
   Input,
   ButtonWrap,
 } from "../Comments/CommentElements";
+import img1 from "../../images/20.jpg";
+import img2 from "../../images/18.jpg";
 
 const Comment = () => {
+  const [buttonPopup, setButtonPopup] = useState(false);
+  const [state] = useState({
+    title: "Jezus powiedział do tłumów:",
+    img: img1,
+    p: "„Z kim mam porównać to pokolenie? Podobne jest do przesiadujących na rynku dzieci, które głośno przymawiają swym rówieśnikom: „Przygrywaliśmy wam, a nie tańczyliście; biadaliśmy, a wy nie zawodziliście”. Przyszedł bowiem Jan, nie jadł ani nie pił, a oni mówią: „Zły duch go opętał”. Przyszedł Syn Człowieczy, je i pije, a oni mówią: „Oto żarłok i pijak, przyjaciel celników i grzeszników”. A jednak mądrość usprawiedliwiona jest przez swe czyny”.",
+    em: "https://profeto.pl/bozy-plan-12",
+    title1: "Św. Paweł pisze:",
+    img1: img2,
+    p1: "„Nie bierzcie wzoru z tego świata, lecz przemieniajcie się przez odnawianie umysłu, abyście umieli rozpoznać, jaka jest wola Boża: co jest dobre, co Bogu miłe i co doskonałe” (Rz 12, 2).",
+    em1: "https://opoka.org.pl/biblioteka/T/TS/101_duchowosc_05.html",
+  });
+
+  const [buttonPopup1, setButtonPopup1] = useState(false);
+
   return (
     <>
       <CommentSection id="/Comment">
@@ -39,7 +56,17 @@ const Comment = () => {
                 Mnie szukać z całego serca” (Jr 29,11-13).
               </CommentText>
             </Col>
-            <ButtonReplay to="/">Replay</ButtonReplay>
+            <ButtonReplay to="/" onClick={() => setButtonPopup1(true)}>
+              Zobacz
+            </ButtonReplay>
+            <Popup trigger={buttonPopup1} setTrigger={setButtonPopup1}>
+              <h3>{state.title1}</h3>
+              <br />
+              <img src={state.img1} alt="..." /> <br />
+              <p>{state.p1}</p>
+              <em>{state.em1}</em>
+              <br />
+            </Popup>
           </Row>
           <Row>
             <Img src="/images/15.jpg" alt="..." />
@@ -57,7 +84,17 @@ const Comment = () => {
                 zacieśniają swe serca” (Dz. 1602; 274).
               </CommentText>
             </Col>
-            <ButtonReplay to="/">Replay</ButtonReplay>
+            <ButtonReplay primary="true" onClick={() => setButtonPopup(true)}>
+              Zobacz
+            </ButtonReplay>
+            <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+              <h3>{state.title}</h3>
+              <br />
+              <img src={state.img} alt="..." /> <br />
+              <p>{state.p}</p>
+              <em>{state.em}</em>
+              <br />
+            </Popup>
           </Row>
           <PHeading>POST: Twój komentarz</PHeading>
           <Form>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import {
@@ -9,8 +9,17 @@ import {
   ButtonWrap,
   LinkBtn,
 } from "./HeroElements";
+import img1 from "../../images/18.jpg";
+import Popup from "../Popup";
 
 const HeroSection = () => {
+  const [buttonPopup, setButtonPopup] = useState(false);
+  const [state] = useState({
+    title: "„Człowiek został powołany na świat, a więc jest światu potrzebny…”",
+    img: img1,
+    p: "Plan to raczej powołanie, jakaś zmiana, nasze szczęście… Wyraz Jego miłości, która dla nas chce jak najlepiej. Choć to wszystko wciąż jest gotowe dla nas, potrzebna jest nasza zgoda – współpraca z „planem Boga”, bo tylko wtedy zaakceptujemy w pełni swojej wolności to wszystko, w czym możemy uczestniczyć, co może dać nam wówczas Bóg.",
+    em: "http://doniek.poczekaj.pl/bozy-plan",
+  });
   return (
     <>
       <HeroMain id="Home">
@@ -88,10 +97,22 @@ const HeroSection = () => {
               <LinkBtn to="/Blog" primary="true">
                 Czytaj
               </LinkBtn>
-              <LinkBtn to="/" primary="true">
-                Czytaj
+              <LinkBtn
+                to="/"
+                primary="true"
+                onClick={() => setButtonPopup(true)}
+              >
+                Zobacz
               </LinkBtn>
             </ButtonWrap>
+            <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+              <h3>{state.title}</h3>
+              <br /> <br />
+              <img src={state.img} alt="..." /> <br />
+              <p>{state.p}</p>
+              <em>{state.em}</em>
+              <br />
+            </Popup>
           </Col>
         </HeroWrap>
       </HeroMain>
