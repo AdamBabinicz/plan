@@ -20,7 +20,7 @@ import {
   ButtonWrap,
 } from "../Comments/CommentElements";
 import img1 from "../../images/20.jpg";
-import img2 from "../../images/18.jpg";
+import img2 from "../../images/21.jpg";
 
 const Comment = () => {
   const [buttonPopup, setButtonPopup] = useState(false);
