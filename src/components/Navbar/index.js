@@ -73,7 +73,7 @@ const Navbar = (props) => {
               offset={-122}
               duration={500}
             >
-              Komentarz
+              Słowo
             </NavLinks>
             <NavLinks
               to="/Blog"
