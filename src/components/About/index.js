@@ -91,7 +91,7 @@ const About = () => {
                 „Zaufaj Panu z całego serca i nie polegaj na własnym rozumie!”
                 (Prz 3:5)
               </BlogHeading>
-              <BlogDate>2020'</BlogDate>
+              <BlogDate>2020'</BlogDate> <br />
               <BlogDesc>
                 „A wiemy, że Bóg współdziała we wszystkim ku dobremu z tymi,
                 którzy Boga miłują, to jest z tymi, którzy według postanowienia
