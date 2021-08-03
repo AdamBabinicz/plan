@@ -22,7 +22,7 @@ const About = () => {
         <AboutContainer>
           <Row>
             <BlogContent>
-              <BlogImg src="/images/21.jpg" />
+              <BlogImg src="/images/17.jpg" />
             </BlogContent>
             <BlogContent>
               <BlogHeading>W życiu kieruje się planem Bożym</BlogHeading>

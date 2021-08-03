@@ -15,7 +15,7 @@ const Marketing = () => {
         <MarketingWrap>
           <Img src="/images/14.jpg" alt="..." />
           <MarketingContent>
-            <h3>Charyzmat</h3>
+            <h3>Obdarzona charyzmatami</h3>
             <h5>19 grudnia 2020'</h5>
             <p>
               "Cały depozyt boskości masz w swoim wnętrzu. Duch Święty
