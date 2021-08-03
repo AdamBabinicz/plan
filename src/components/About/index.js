@@ -26,7 +26,7 @@ const About = () => {
             </BlogContent>
             <BlogContent>
               <BlogHeading>W życiu kieruje się planem Bożym</BlogHeading>
-              <BlogDate>23 czerwca 2019'</BlogDate>
+              <BlogDate>23 czerwca 2019'</BlogDate> <br />
               <BlogDesc>
                 „Gdyż Pan wodzi oczyma swymi po całej ziemi, aby wzmacniać tych,
                 którzy szczerym sercem są przy nim”.
