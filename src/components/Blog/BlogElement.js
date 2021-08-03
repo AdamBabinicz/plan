@@ -39,7 +39,7 @@ export const Col = styled.div`
 
 export const Img = styled.img`
   width: 100%;
-  height: 41vh;
+  /* height: 41vh; */
 `;
 
 export const BlogContent = styled.div`

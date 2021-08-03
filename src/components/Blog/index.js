@@ -15,7 +15,7 @@ const Blog = () => {
         <BlogHeading>Blog</BlogHeading>
         <BlogWrap>
           <Col>
-            <Img src="/images/9.jpg " alt="..." />
+            <Img src="/images/20.jpg " alt="..." />
             <BlogContent>
               <h3>Bóg ma dla Ciebie niezwykły plan</h3>
               <a
@@ -37,7 +37,7 @@ const Blog = () => {
             </BlogContent>
           </Col>
           <Col>
-            <Img src="/images/10.jpg " alt="..." />
+            <Img src="/images/21.jpg " alt="..." />
             <BlogContent>
               <h3>Bóg pragnie mojego szczęścia</h3>
               <a
