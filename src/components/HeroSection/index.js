@@ -76,7 +76,6 @@ const HeroSection = () => {
               <p>
                 <em>dr Anna Saj</em>
               </p>
-              <br />
               <p>
                 "Wielu braci i wiele sióstr uważa, że jeśli w przeszłości
                 grzeszyli i zawiedli Boga, to nie są w już stanie wypełnić

@@ -52,7 +52,7 @@ export const TextWrap = styled.div`
     font-size: 1.7rem;
     font-weight: 300;
     line-height: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1.2rem;
   }
 
   @media (max-width: 768px) {
@@ -61,10 +61,10 @@ export const TextWrap = styled.div`
       margin-top: 1rem;
     }
     h4 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
     }
     p {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
   }
 `;
