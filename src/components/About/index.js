@@ -22,7 +22,7 @@ const About = () => {
         <AboutContainer>
           <Row>
             <BlogContent>
-              <BlogImg src="/images/17.jpg" />
+              <BlogImg src="/images/17.jpg" alt="..." />
             </BlogContent>
             <BlogContent>
               <BlogHeading>W życiu kieruje się planem Bożym</BlogHeading>
@@ -84,7 +84,7 @@ const About = () => {
           </Row>
           <Row>
             <BlogContent>
-              <BlogImg src="/images/16.jpg" />
+              <BlogImg src="/images/16.jpg" alt="..." />
             </BlogContent>
             <BlogContent>
               <BlogHeading>
