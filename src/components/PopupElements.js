@@ -72,7 +72,7 @@ export const Button = styled.button`
   align-items: center;
 
   @media screen and (max-width: 480px) {
-    top: 4px;
-    right: 4px;
+    top: 8px;
+    right: 8px;
   }
 `;
