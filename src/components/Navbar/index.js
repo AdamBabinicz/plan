@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaBars, FaCaretDown } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import {
   Nav,
   NavbarContainer,
@@ -8,10 +8,6 @@ import {
   MobileIcon,
   NavMenu,
   NavLinks,
-  DropdownMenu,
-  DropdownLink,
-  NavBtn,
-  NavBtnLink,
 } from "./NavbarElements";
 
 const Navbar = (props) => {

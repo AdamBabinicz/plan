@@ -17,7 +17,6 @@ import {
   TextArea,
   Form,
   Input,
-  ButtonWrap,
 } from "../Comments/CommentElements";
 import img1 from "../../images/20.jpg";
 import img2 from "../../images/21.jpg";
@@ -32,7 +31,7 @@ const Comment = () => {
     title1: "Św. Paweł pisze:",
     img1: img2,
     p1: "„Nie bierzcie wzoru z tego świata, lecz przemieniajcie się przez odnawianie umysłu, abyście umieli rozpoznać, jaka jest wola Boża: co jest dobre, co Bogu miłe i co doskonałe” (Rz 12, 2).",
-    em1: "https://opoka.org.pl/biblioteka/T/TS/101_duchowosc_05.html",
+    em1: "https://opoka.org.pl",
   });
 
   const [buttonPopup1, setButtonPopup1] = useState(false);

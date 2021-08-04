@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Button } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import {
   HeroMain,
