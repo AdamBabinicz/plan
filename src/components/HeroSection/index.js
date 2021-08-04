@@ -16,8 +16,8 @@ const HeroSection = () => {
   const [state] = useState({
     title: "„Człowiek został powołany na świat, a więc jest światu potrzebny…”",
     img: img1,
-    p: "Plan to raczej powołanie, jakaś zmiana, nasze szczęście… Wyraz Jego miłości, która dla nas chce jak najlepiej. Choć to wszystko wciąż jest gotowe dla nas, potrzebna jest nasza zgoda – współpraca z „planem Boga”, bo tylko wtedy zaakceptujemy w pełni swojej wolności to wszystko, w czym możemy uczestniczyć, co może dać nam wówczas Bóg.",
-    em: "http://doniek.poczekaj.pl/bozy-plan",
+    p: "Plan to raczej powołanie, jakaś zmiana, nasze szczęście … Wyraz Jego miłości, która dla nas chce jak najlepiej. Choć to wszystko wciąż jest gotowe dla nas, potrzebna jest nasza zgoda – …",
+    em: "http://doniek.poczekaj.pl",
   });
   return (
     <>
