@@ -85,6 +85,10 @@ export const LinkBtn = styled(LinkS)`
   cursor: pointer;
   transition: 0.3s;
 
+  @media (max-width: 768px) {
+    margin-right: 1rem;
+  }
+
   &:hover {
     background: ${({ primary }) => (primary ? "#ea6364" : "#000")};
     color: #fff;
