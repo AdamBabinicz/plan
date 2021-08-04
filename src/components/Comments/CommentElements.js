@@ -46,6 +46,10 @@ export const Img = styled.img`
   max-width: 50%;
   height: auto;
   padding-top: 2rem;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
 `;
 
 export const CHeading = styled.h2`

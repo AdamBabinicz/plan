@@ -34,6 +34,11 @@ export const MarketingWrap = styled.div`
 export const Img = styled.img`
   width: 50%;
   max-width: 50%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 100%;
+  }
 `;
 
 export const MarketingContent = styled.div`
