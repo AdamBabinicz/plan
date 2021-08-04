@@ -154,7 +154,8 @@ export const ImageBox = styled.div`
   @media (max-width: 991px) {
     grid: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
   }
 `;
