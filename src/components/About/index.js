@@ -36,22 +36,23 @@ const About = () => {
               </BlogDesc>
               <br />
               <BlogDesc>
-                „To, co muszę zrobić, by rozpoznać Boży plan w moim życiu, to
-                przemienić swój sposób myślenia. Bez tego nie jestem w stanie
-                rozeznać tego, co Bóg chce robić w moim życiu. Bez tego nie
-                jestem w stanie podejmować właściwych decyzji …”.
+                „To, co muszę zrobić, by rozpoznać Boży plan w&nbsp;moim życiu,
+                to przemienić swój sposób myślenia. Bez tego nie jestem
+                w&nbsp;stanie rozeznać tego, co Bóg chce robić w&nbsp;moim
+                życiu. Bez tego nie jestem w&nbsp;stanie podejmować właściwych
+                decyzji …”.
                 <p>
                   <em>dr Anna Saj</em>
                 </p>
               </BlogDesc>
               <br />
               <BlogDesc>
-                „Bóg pyta o nasze plany i poprzez wydarzenia pokazuje, czy
-                idziemy w dobrą czy w złą stronę. To, co przede wszystkim nam
-                daje, to miłość i wolność. A główne pytanie miłości to: co mogę
-                dla ciebie zrobić? On ma szerszą perspektywę, wie, co nam
-                pomoże, a co zaszkodzi, ale daje nam wolność i możliwość
-                samodzielnego podejmowania decyzji.”
+                „Bóg pyta o&nbsp;nasze plany i&nbsp;poprzez wydarzenia pokazuje,
+                czy idziemy w&nbsp;dobrą czy w&nbsp;złą stronę. To, co przede
+                wszystkim nam daje, to miłość i&nbsp;wolność. A&nbsp;główne
+                pytanie miłości to: co mogę dla ciebie zrobić? On ma szerszą
+                perspektywę, wie, co nam pomoże, a co zaszkodzi, ale daje nam
+                wolność i&nbsp;możliwość samodzielnego podejmowania decyzji.”
                 <a
                   href="https://deon.pl/wiara/duchowosc/jak-wyglada-plan-boga-na-twoje-zycie,445217"
                   target="_blank"
@@ -64,12 +65,12 @@ const About = () => {
               </BlogDesc>
               <br />
               <BlogDesc>
-                "Podstawowa sprawa to wyciągnięcie wniosków z tego, co mówimy
-                codziennie, czyli z Modlitwy Pańskiej - „bądź wola Twoja”.
-                Jesteśmy zobowiązani do bardzo prostego i logicznego patrzenia
-                na swoje życie. Jeżeli wszystko jest w ramach Opatrzności Bożej,
-                wówczas to co się dzieje we mnie, wokół mnie jest znakiem Bożego
-                działania."
+                "Podstawowa sprawa to wyciągnięcie wniosków z&nbsp;tego, co
+                mówimy codziennie, czyli z&nbsp;Modlitwy Pańskiej - „bądź wola
+                Twoja”. Jesteśmy zobowiązani do bardzo prostego
+                i&nbsp;logicznego patrzenia na swoje życie. Jeżeli wszystko jest
+                w&nbsp;ramach Opatrzności Bożej, wówczas to co się dzieje
+                we&nbsp;mnie, wokół mnie, jest znakiem Bożego działania."
                 <a
                   href="https://www.fronda.pl/a/jak-rozpoznac-bozy-plan-na-twoje-zycie,53528.html"
                   target="_blank"
@@ -88,18 +89,18 @@ const About = () => {
             </BlogContent>
             <BlogContent>
               <BlogHeading>
-                „Zaufaj Panu z całego serca i nie polegaj na własnym rozumie!”
-                (Prz 3:5)
+                „Zaufaj Panu z&nbsp;całego serca i&nbsp;nie polegaj na własnym
+                rozumie!” (Prz 3:5)
               </BlogHeading>
               <BlogDate>2020'</BlogDate> <br />
               <BlogDesc>
-                „A wiemy, że Bóg współdziała we wszystkim ku dobremu z tymi,
-                którzy Boga miłują, to jest z tymi, którzy według postanowienia
-                jego są powołani” (List do Rzymian 8,28).
+                „A wiemy, że&nbsp;Bóg współdziała we&nbsp;wszystkim ku dobremu
+                z&nbsp;tymi, którzy Boga miłują, to jest z&nbsp;tymi, którzy
+                według postanowienia jego są powołani” (List do Rzymian 8,28).
               </BlogDesc>
               <BlogDesc>
                 „Gdyby Mi dusze ufały więcej, miałaby ziemia tylu świętych, ilu
-                jest ludzi na ziemi” (Pan Jezus do s. Leoni Nastał).
+                jest ludzi na&nbsp;ziemi” (Pan Jezus do s. Leoni Nastał).
                 <a
                   href="https://milujciesie.pl/bog-ma-dobry-plan.html"
                   target="_blank"
@@ -111,12 +112,12 @@ const About = () => {
                 </a>
               </BlogDesc>
               <BlogDesc>
-                „Powiadam ci, że się tym zajmę, jak lekarz. Uczynię nawet cud,
-                jeśli będzie to potrzebne. […] Ufaj zatem tylko Mi, odpocznij we
-                Mnie, całkowicie się na Mnie zdaj. Czynię cuda proporcjonalnie
-                do twojego pełnego oddania się Mi i do oderwania się od twoich
-                myśli. Rozrzucam skarby łask, kiedy jesteś ubogi, całkowicie”
-                (Pan Jezus do ks. Dolindo).
+                „Powiadam ci, że&nbsp;się tym zajmę, jak lekarz. Uczynię nawet
+                cud, jeśli będzie to potrzebne. […] Ufaj zatem tylko Mi,
+                odpocznij we&nbsp;Mnie, całkowicie się na Mnie zdaj. Czynię cuda
+                proporcjonalnie do twojego pełnego oddania się Mi i&nbsp;do
+                oderwania się od twoich myśli. Rozrzucam skarby łask, kiedy
+                jesteś ubogi, całkowicie” (Pan Jezus do ks. Dolindo).
                 <a
                   href="https://milujciesie.pl/bog-ma-dobry-plan.html"
                   target="_blank"
@@ -132,11 +133,11 @@ const About = () => {
                 się ani nie doznała zawstydzenia” (Dz. 1541).
               </BlogDesc>
               <BlogDesc>
-                „Troszczcie się o Królestwo Boże, a wszystko inne będzie wam
-                dodane” (Łk 12,30).
+                „Troszczcie się o&nbsp;Królestwo Boże, a&nbsp;wszystko inne
+                będzie wam dodane” (Łk 12,30).
               </BlogDesc>
               <BlogDesc>
-                „Królestwo Boże to życie Moje w duszy ludzkiej” (Dz. 1784).
+                „Królestwo Boże to życie Moje w&nbsp;duszy ludzkiej” (Dz. 1784).
               </BlogDesc>
             </BlogContent>
           </Row>

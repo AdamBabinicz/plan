@@ -34,8 +34,8 @@ const HeroSection = () => {
                 <Carousel.Caption>
                   <h2>Beata</h2>
                   <p>
-                    Od 2016' działa w Katolickiej Odnowie w Duchu Św.
-                    "RESURREXIT" w Radomiu
+                    Od 2016' działa w&nbsp;Katolickiej Odnowie w&nbsp;Duchu Św.
+                    "RESURREXIT" w&nbsp;Radomiu
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -59,7 +59,8 @@ const HeroSection = () => {
                 <Carousel.Caption>
                   <h2>Beata</h2>
                   <p>
-                    Swoje życie poświęciła całkowicie Bogu, rodzinie i ludziom.
+                    Swoje życie poświęciła całkowicie Bogu, rodzinie
+                    i&nbsp;ludziom.
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -76,16 +77,17 @@ const HeroSection = () => {
                 <em>dr Anna Saj</em>
               </p>
               <p>
-                "Wielu braci i wiele sióstr uważa, że jeśli w przeszłości
-                grzeszyli i zawiedli Boga, to nie są w już stanie wypełnić
-                Bożego planu dla swojego życia. Myślą, że gdyby w młodości
-                całkowicie poddali swoje życie Bogu i żyli zgodnie z Jego wolą,
-                wtedy nie narobiliby bałaganu w swoim życiu i mogliby żyć
-                zgodnie z Jego planem, a teraz jest już za późno. Zgodnie z
-                ludzką logiką brzmi to sensownie. Ale gdy spojrzymy do Słowa
-                Bożego, wówczas przekonamy się, że Boże myśli oraz Boże drogi są
-                zupełnie inne niż nasze. Że nawet dla takich osób nadal jest
-                nadzieja."
+                "Wielu braci i&nbsp;wiele sióstr uważa, że&nbsp;jeśli
+                w&nbsp;przeszłości grzeszyli i&nbsp;zawiedli Boga, to nie są
+                w&nbsp;już stanie wypełnić Bożego planu dla swojego życia.
+                Myślą, że&nbsp;gdyby w&nbsp;młodości całkowicie poddali swoje
+                życie Bogu i&nbsp;żyli zgodnie z&nbsp;Jego wolą, wtedy nie
+                narobiliby bałaganu w&nbsp;swoim życiu i&nbsp;mogliby żyć
+                zgodnie z&nbsp;Jego planem, a&nbsp;teraz jest już za&nbsp;późno.
+                Zgodnie z&nbsp;ludzką logiką brzmi to sensownie. Ale gdy
+                spojrzymy do Słowa Bożego, wówczas przekonamy się, że&nbsp;Boże
+                myśli oraz&nbsp;Boże drogi są zupełnie inne niż nasze.
+                Że&nbsp;nawet dla takich osób nadal jest nadzieja."
               </p>
               <a href="https://www.chlebznieba.pl/index.php?id=929">
                 <p>

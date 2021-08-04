@@ -26,12 +26,13 @@ const Blog = () => {
                 <p className="subtitle">adonai.pl</p>
               </a>
               <p>
-                "Niech będzie błogosławiony Bóg i Ojciec Pana naszego Jezusa
-                Chrystusa: On napełnił nas wszelkim błogosławieństwem duchowym
-                na wyżynach niebieskich - w Chrystusie. W Nim bowiem wybrał nas
-                przed założeniem świata, abyśmy byli święci i nieskalani przed
-                Jego obliczem. Z miłości przeznaczył nas dla siebie jako
-                przybranych synów przez Jezusa Chrystusa"
+                "Niech będzie błogosławiony Bóg i&nbsp;Ojciec Pana naszego
+                Jezusa Chrystusa: On napełnił nas wszelkim błogosławieństwem
+                duchowym na wyżynach niebieskich - w&nbsp;Chrystusie. W&nbsp;Nim
+                bowiem wybrał nas przed założeniem świata, abyśmy byli święci
+                i&nbsp;nieskalani przed Jego obliczem. Z&nbsp;miłości
+                przeznaczył nas dla siebie jako przybranych synów przez Jezusa
+                Chrystusa"
               </p>
               <p>(Ef 1, 3-5).</p>
             </BlogContent>
@@ -50,11 +51,11 @@ const Blog = () => {
               <p>
                 "Trzeba wiary, aby nie ulec zbyt racjonalistycznemu myśleniu.
                 Trzeba ciszy, by Bóg mógł mówić. Potrzeba nam serca otwartego,
-                by Jego łaska mogła działać cuda i odwagi, by to, co trudne nie
-                przeraziło, nie zniechęciło. Trzeba zaufania, by to, co
-                niezrozumiałe i trudne Jemu oddać oraz miłości, by odpowiedzieć
-                - tak - Miłości... Warto było walczyć i warto walczyć nadal o
-                to, by to Jego wola się spełniała..."
+                by Jego łaska mogła działać cuda i&nbsp;odwagi, by to, co trudne
+                nie&nbsp;przeraziło, nie&nbsp;zniechęciło. Trzeba zaufania, by
+                to, co niezrozumiałe i&nbsp;trudne Jemu oddać oraz miłości, by
+                odpowiedzieć - tak - Miłości... Warto było walczyć i&nbsp;warto
+                walczyć nadal o&nbsp;to, by to Jego wola się spełniała..."
               </p>
               <p>(S.M. Małgorzata, s. Maryi Niepokalanej).</p>
             </BlogContent>

@@ -48,11 +48,11 @@ const Comment = () => {
               <PostDate>Data: 01/08/2021</PostDate>
               <CommentText>
                 „Jestem bowiem świadomy zamiarów, jakie zamyślam co do was –
-                wyrocznia Pana – zamiarów pełnych pokoju, a nie zguby, by
+                wyrocznia Pana – zamiarów pełnych pokoju, a&nbsp;nie zguby, by
                 zapewnić wam przyszłość, jakiej oczekujecie. Będziecie Mnie
-                wzywać, zanosząc do Mnie swe modlitwy, a Ja was wysłucham.
-                Będziecie Mnie szukać i znajdziecie Mnie, albowiem będziecie
-                Mnie szukać z całego serca” (Jr 29,11-13).
+                wzywać, zanosząc do Mnie swe modlitwy, a&nbsp;Ja was wysłucham.
+                Będziecie Mnie szukać i&nbsp;znajdziecie Mnie, albowiem
+                będziecie Mnie szukać z&nbsp;całego serca” (Jr 29,11-13).
               </CommentText>
             </Col>
             <ButtonReplay to="/" onClick={() => setButtonPopup1(true)}>
@@ -74,13 +74,14 @@ const Comment = () => {
               <PostDate>Data: 06/06/2021</PostDate>
               <CommentText>
                 „Jeżeli ufność ich będzie wielka, hojności Mojej nie ma granic.
-                […] Łaski z Mojego miłosierdzia czerpie się jednym naczyniem, a
-                nim jest – ufność. Im dusza więcej zaufa, tym więcej otrzyma.
-                Wielką mi są pociechą dusze o bezgranicznej ufności, bo w takie
-                dusze przelewam wszystkie skarby swych łask. Cieszę się, że
-                żądają wiele, bo Moim pragnieniem jest dawać wiele, i to bardzo
-                wiele. Smucę się natomiast, jeżeli dusze żądają mało,
-                zacieśniają swe serca” (Dz. 1602; 274).
+                […] Łaski z&nbsp;Mojego miłosierdzia czerpie się jednym
+                naczyniem, a&nbsp;nim jest – ufność. Im dusza więcej zaufa, tym
+                więcej otrzyma. Wielką mi są pociechą dusze o&nbsp;
+                bezgranicznej ufności, bo w&nbsp;takie dusze przelewam wszystkie
+                skarby swych łask. Cieszę się, że&nbsp;żądają wiele, bo Moim
+                pragnieniem jest dawać wiele, i&nbsp;to bardzo wiele. Smucę się
+                natomiast, jeżeli dusze żądają mało, zacieśniają swe serca” (Dz.
+                1602; 274).
               </CommentText>
             </Col>
             <ButtonReplay primary="true" onClick={() => setButtonPopup(true)}>
