@@ -45,7 +45,8 @@ const Footer = () => {
                 987 654 321
               </span>
               <span>
-                <MdEmail /> abc@example.com
+                <MdEmail />
+                {<a href="mailto:parafia@annuarita.pl">parafia@annuarita.pl</a>}
               </span>
             </ContactInfo>
             <SocialIcon>
@@ -92,7 +93,7 @@ const Footer = () => {
               </FooterLink> */}
               <FooterLink to="/About">
                 <MdChevronRight />
-                About
+                Beata
               </FooterLink>
               <FooterLink to="/Marketing">
                 <MdChevronRight />

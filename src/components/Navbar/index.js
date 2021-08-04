@@ -55,7 +55,7 @@ const Navbar = (props) => {
               offset={-122}
               duration={500}
             >
-              About
+              Beata
             </NavLinks>
             <NavLinks
               to="/Marketing"

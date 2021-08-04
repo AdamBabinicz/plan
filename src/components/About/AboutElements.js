@@ -58,7 +58,7 @@ export const BlogContent = styled.div`
 export const BlogHeading = styled.h4`
   padding-top: 2rem;
   color: #333;
-  font-size: 3.2rem;
+  font-size: 2rem;
   line-height: 4rem;
   font-weight: 600;
 

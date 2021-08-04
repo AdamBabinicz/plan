@@ -53,18 +53,22 @@ export const CHeading = styled.h2`
   font-size: 2rem;
   font-weight: 700;
   padding-top: 2rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.7rem;
+  }
 `;
 
 export const PostDate = styled.h4`
   color: #f54748;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 500;
   margin-bottom: 1rem;
 `;
 
 export const CommentText = styled.p`
   color: #827f7f;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   text-align: left;
 `;
@@ -93,6 +97,10 @@ export const PHeading = styled.h2`
   padding: 3rem;
   text-align: center;
   text-decoration: underline;
+
+  @media (max-width: 768px) {
+    font-size: 1.7rem;
+  }
 `;
 
 export const Form = styled.form`

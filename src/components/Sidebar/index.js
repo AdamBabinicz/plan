@@ -29,7 +29,7 @@ const Sidebar = (props) => {
             </SidebarLink>
             <SidebarLink to="/About" onClick={props.toggle}>
               <AiFillProfile />
-              About
+              Beata
             </SidebarLink>
             <SidebarLink to="/Marketing" onClick={props.toggle}>
               <AiFillCustomerService />

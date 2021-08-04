@@ -46,7 +46,7 @@ const Comment = () => {
             <Img src="/images/19.jpg" alt="..." />
             <Col>
               <CHeading>Topornia</CHeading>
-              <PostDate>Posted: 01/08/2021</PostDate>
+              <PostDate>Data: 01/08/2021</PostDate>
               <CommentText>
                 „Jestem bowiem świadomy zamiarów, jakie zamyślam co do was –
                 wyrocznia Pana – zamiarów pełnych pokoju, a nie zguby, by
@@ -72,7 +72,7 @@ const Comment = () => {
             <Img src="/images/15.jpg" alt="..." />
             <Col>
               <CHeading>Bałtów</CHeading>
-              <PostDate>Posted: 06/06/2021</PostDate>
+              <PostDate>Data: 06/06/2021</PostDate>
               <CommentText>
                 „Jeżeli ufność ich będzie wielka, hojności Mojej nie ma granic.
                 […] Łaski z Mojego miłosierdzia czerpie się jednym naczyniem, a
@@ -96,7 +96,7 @@ const Comment = () => {
               <br />
             </Popup>
           </Row>
-          <PHeading>POST: Twój komentarz</PHeading>
+          <PHeading>Twój komentarz</PHeading>
           <Form>
             <Input type="text" placeholder="Imię lub Nick" />
             <Input type="text" placeholder="Email" />

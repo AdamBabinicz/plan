@@ -8,8 +8,8 @@ export const BlogSection = styled.div`
 `;
 
 export const BlogHeading = styled.h4`
-  font-size: 5rem;
-  color: #000;
+  font-size: 3rem;
+  color: #333;
   margin-bottom: 5rem;
   font-weight: 700;
   line-height: 3rem;
@@ -33,7 +33,7 @@ export const Col = styled.div`
   width: 80%;
 
   @media (max-width: 576px) {
-    width: 90%;
+    width: 97%;
   }
 `;
 
@@ -49,15 +49,19 @@ export const BlogContent = styled.div`
   position: relative;
   top: -1rem;
 
+  @media (max-width: 768px) {
+    padding: 2rem;
+  }
+
   h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #141615;
     line-height: 3rem;
     font-weight: 600;
   }
 
   p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #212222;
     line-height: 3rem;
     font-weight: 300;

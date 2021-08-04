@@ -29,15 +29,31 @@ export const FooterWrap = styled.div`
 export const FooterLogo = styled(LinkS)`
   width: 100%;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 export const Img = styled.img`
   width: 60%;
   max-width: 100%;
+
+  @media (max-width: 768px) {
+    width: 30%;
+  }
 `;
 
 export const Col = styled.div`
   flex: 1 1 20%;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   h3 {
     color: #fff;
@@ -50,6 +66,10 @@ export const Col = styled.div`
 
 export const ContactInfo = styled.div`
   padding-bottom: 2rem;
+
+  a {
+    color: #fff;
+  }
 
   span {
     display: flex;
@@ -84,6 +104,14 @@ export const SocialLink = styled(LinkR)`
   justify-content: center;
   align-items: center;
 
+  @media (max-width: 768px) {
+    margin-right: 1rem;
+
+    &:nth-child(4) {
+      margin-right: 0;
+    }
+  }
+
   &:hover {
     color: #f54748;
   }
@@ -92,6 +120,10 @@ export const SocialLink = styled(LinkR)`
 export const FooterMenu = styled.ul`
   list-style: none;
   display: grid;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
 
 export const FooterLink = styled(LinkS)`
@@ -122,6 +154,7 @@ export const ImageBox = styled.div`
     grid: none;
     display: flex;
     flex-wrap: wrap;
+    width: 50%;
   }
 `;
 
