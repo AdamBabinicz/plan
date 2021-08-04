@@ -236,7 +236,7 @@ export const CopySection = styled.div`
   }
 `;
 
-export const LinkCopy = styled(LinkS)`
+export const LinkCopy = styled(LinkR)`
   color: #212222;
   cursor: pointer;
   transition: 0.3s;

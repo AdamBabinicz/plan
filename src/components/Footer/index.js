@@ -133,7 +133,13 @@ const Footer = () => {
       <CopySection>
         <p>
           Radom 2021 - {new Date().getFullYear()}.{" "}
-          <LinkCopy to="/">ag</LinkCopy>
+          <LinkCopy
+            to="//a-g.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ag
+          </LinkCopy>
         </p>
       </CopySection>
     </>
