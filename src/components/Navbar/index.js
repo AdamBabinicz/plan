@@ -28,7 +28,7 @@ const Navbar = (props) => {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="Home">
-            <ImgLogo src="/images/1.png" />
+            <ImgLogo src="/images/1.png" alt="..." />
           </NavLogo>
           <MobileIcon>
             <FaBars onClick={props.toggle} />
