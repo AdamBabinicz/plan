@@ -25,6 +25,7 @@ const GlobalStyle = createGlobalStyle`
       a {
          text-decoration: none;
          transition: .3s;
+         
       }
       .sr-only {
          display: none;

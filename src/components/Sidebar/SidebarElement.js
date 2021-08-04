@@ -46,7 +46,7 @@ export const SidebarMenu = styled.ul`
 export const SidebarLink = styled(LinkS)`
   padding: 1rem 3rem;
   font-size: 2rem;
-  color: #fff;
+  color: #fff !important;
   display: flex;
   align-items: center;
   gap: 2rem;

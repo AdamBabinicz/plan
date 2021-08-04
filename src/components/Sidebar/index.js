@@ -1,9 +1,10 @@
 import React from "react";
 import {
-  AiFillProfile,
-  AiFillHome,
-  AiFillCustomerService,
-  AiOutlineProfile,
+  AiOutlineUser,
+  AiOutlineFire,
+  AiOutlineHome,
+  AiOutlineEdit,
+  AiOutlineRead,
 } from "react-icons/ai";
 import {
   SidebarContainer,
@@ -24,24 +25,24 @@ const Sidebar = (props) => {
           </Icon>
           <SidebarMenu>
             <SidebarLink to="Home" onClick={props.toggle}>
-              <AiFillHome />
-              Start
+              <AiOutlineHome />
+              &nbsp; Start
             </SidebarLink>
             <SidebarLink to="/About" onClick={props.toggle}>
-              <AiFillProfile />
-              Beata
+              <AiOutlineUser />
+              &nbsp; Beata
             </SidebarLink>
             <SidebarLink to="/Marketing" onClick={props.toggle}>
-              <AiFillCustomerService />
-              Wiara
+              <AiOutlineFire />
+              &nbsp; Wiara
             </SidebarLink>
             <SidebarLink to="/Comment" onClick={props.toggle}>
-              <AiFillProfile />
-              Słowo
+              <AiOutlineRead />
+              &nbsp; Słowo
             </SidebarLink>
             <SidebarLink to="/Blog" onClick={props.toggle}>
-              <AiOutlineProfile />
-              Blog
+              <AiOutlineEdit />
+              &nbsp; Blog
             </SidebarLink>
           </SidebarMenu>
         </SidebarWrap>
