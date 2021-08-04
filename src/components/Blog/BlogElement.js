@@ -34,6 +34,7 @@ export const Col = styled.div`
 
   @media (max-width: 576px) {
     width: 97%;
+    margin-bottom: 2rem;
   }
 `;
 
