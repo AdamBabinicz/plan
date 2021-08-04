@@ -41,8 +41,7 @@ const Footer = () => {
                 <MdLocationOn /> Radom
               </span>
               <span>
-                <MdLocalPhone /> 987 654 321 <br />
-                987 654 321
+                <MdLocalPhone /> xxx xxx xxx
               </span>
               <span>
                 <MdEmail />

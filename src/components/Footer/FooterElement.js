@@ -83,6 +83,7 @@ export const ContactInfo = styled.div`
 
   svg {
     font-size: 2rem;
+    margin-right: 1rem;
   }
 `;
 
