@@ -50,7 +50,7 @@ const HeroSection = () => {
                   <p>Animatorka życia duchowego</p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item>
+              <Carousel.Item interval={1000}>
                 <img
                   className="d-block w-100"
                   src="/images/13.jpg"
@@ -62,6 +62,28 @@ const HeroSection = () => {
                     Swoje życie poświęciła całkowicie Bogu, rodzinie
                     i&nbsp;ludziom.
                   </p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={1000}>
+                <img
+                  className="d-block w-100"
+                  src="/images/22.jpg"
+                  alt="Fourth slide"
+                />
+                <Carousel.Caption>
+                  <h2>Beata</h2>
+                  <p>Przedstawienie Bożego Narodzenia.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={1000}>
+                <img
+                  className="d-block w-100"
+                  src="/images/23.jpg"
+                  alt="Fifth slide"
+                />
+                <Carousel.Caption>
+                  <h2>Beata</h2>
+                  <p>Jasełka.</p>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
