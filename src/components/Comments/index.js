@@ -96,7 +96,7 @@ const Comment = () => {
               <br />
             </Popup>
           </Row>
-          <PHeading>Twój komentarz</PHeading>
+          <PHeading>Komentarz</PHeading>
           <Form>
             <Input type="text" placeholder="Imię lub Nick" />
             <Input type="text" placeholder="Email" />

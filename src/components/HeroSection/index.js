@@ -25,7 +25,7 @@ const HeroSection = () => {
         <HeroWrap>
           <Col>
             <Carousel>
-              <Carousel.Item interval={1000}>
+              <Carousel.Item interval={6000}>
                 <img
                   className="d-block w-100"
                   src="/images/11.jpg"
@@ -39,18 +39,30 @@ const HeroSection = () => {
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={1000}>
+              <Carousel.Item interval={6000}>
                 <img
                   className="d-block w-100"
-                  src="/images/12.jpg"
-                  alt="Second slide"
+                  src="/images/23.jpg"
+                  alt="Fifth slide"
                 />
                 <Carousel.Caption>
                   <h2>Beata</h2>
-                  <p>Animatorka życia duchowego</p>
+                  <p>Jasełka.</p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={1000}>
+              <Carousel.Item interval={6000}>
+                <img
+                  className="d-block w-100"
+                  src="/images/22.jpg"
+                  alt="Fourth slide"
+                />
+                <Carousel.Caption>
+                  <h2>Beata</h2>
+                  <p>Przedstawienie Bożego Narodzenia.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+
+              <Carousel.Item interval={6000}>
                 <img
                   className="d-block w-100"
                   src="/images/13.jpg"
@@ -64,26 +76,15 @@ const HeroSection = () => {
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={1000}>
+              <Carousel.Item interval={6000}>
                 <img
                   className="d-block w-100"
-                  src="/images/22.jpg"
-                  alt="Fourth slide"
+                  src="/images/12.jpg"
+                  alt="Second slide"
                 />
                 <Carousel.Caption>
                   <h2>Beata</h2>
-                  <p>Przedstawienie Bożego Narodzenia.</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item interval={1000}>
-                <img
-                  className="d-block w-100"
-                  src="/images/23.jpg"
-                  alt="Fifth slide"
-                />
-                <Carousel.Caption>
-                  <h2>Beata</h2>
-                  <p>Jasełka.</p>
+                  <p>Animatorka życia duchowego</p>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>

@@ -54,8 +54,7 @@ const Blog = () => {
                 by Jego łaska mogła działać cuda i&nbsp;odwagi, by to, co trudne
                 nie&nbsp;przeraziło, nie&nbsp;zniechęciło. Trzeba zaufania, by
                 to, co niezrozumiałe i&nbsp;trudne Jemu oddać oraz miłości, by
-                odpowiedzieć - tak - Miłości... Warto było walczyć i&nbsp;warto
-                walczyć nadal o&nbsp;to, by to Jego wola się spełniała..."
+                odpowiedzieć - tak - Miłości ..."
               </p>
               <p>(S.M. Małgorzata, s. Maryi Niepokalanej).</p>
             </BlogContent>

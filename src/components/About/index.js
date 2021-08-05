@@ -17,7 +17,7 @@ const About = () => {
     <>
       <AboutSection id="/About">
         <HeadingText>
-          Jaka<span>jest?</span>
+          Jaka<span>jesteś?</span>
         </HeadingText>
         <AboutContainer>
           <Row>
@@ -25,7 +25,7 @@ const About = () => {
               <BlogImg src="/images/17.jpg" alt="..." />
             </BlogContent>
             <BlogContent>
-              <BlogHeading>W życiu kieruje się planem Bożym</BlogHeading>
+              <BlogHeading>W życiu kierujesz się planem Bożym</BlogHeading>
               <BlogDate>23 czerwca 2019'</BlogDate> <br />
               <BlogDesc>
                 „Gdyż Pan wodzi oczyma swymi po całej ziemi, aby wzmacniać tych,

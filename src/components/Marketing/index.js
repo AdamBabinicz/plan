@@ -11,7 +11,7 @@ const Marketing = () => {
   return (
     <>
       <MarketingSection id="/Marketing">
-        <MarketingHeading>Jej wiara</MarketingHeading>
+        <MarketingHeading>Twoja wiara</MarketingHeading>
         <MarketingWrap>
           <Img src="/images/14.jpg" alt="..." />
           <MarketingContent>
