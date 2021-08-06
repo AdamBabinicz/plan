@@ -98,12 +98,12 @@ const Comment = () => {
           </Row>
           <PHeading>Komentarz</PHeading>
           <Form
-            name="contact"
+            name="contact v1"
             method="POST"
             data-netlify="true"
             onSubmit="submit"
           >
-            <Input type="hidden" name="form-name" value="contact" />
+            <Input type="hidden" name="form-name" value="contact v1" />
             <Input type="text" name="first-name" placeholder="Imię lub Nick" />
             <Input id="email" type="email" name="email" placeholder="Email" />
             <TextArea
