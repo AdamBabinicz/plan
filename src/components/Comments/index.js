@@ -97,12 +97,22 @@ const Comment = () => {
             </Popup>
           </Row>
           <PHeading>Komentarz</PHeading>
-          <Form>
-            <Input type="text" placeholder="Imię lub Nick" />
-            <Input type="text" placeholder="Email" />
-            <TextArea type="textarea" placeholder="Komentarz ..." />
+          <Form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            onSubmit="submit"
+          >
+            <Input type="hidden" name="form-name" value="contact" />
+            <Input type="text" name="first-name" placeholder="Imię lub Nick" />
+            <Input id="email" type="email" name="email" placeholder="Email" />
+            <TextArea
+              type="textarea"
+              name="comments"
+              placeholder="Komentarz ..."
+            />
             <BtnWrap>
-              <BtnLink to="/">Wyślij</BtnLink>
+              <BtnLink type="submit">Wyślij</BtnLink>
             </BtnWrap>
           </Form>
         </CommentWrap>
