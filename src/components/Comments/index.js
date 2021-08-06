@@ -97,15 +97,14 @@ const Comment = () => {
             </Popup>
           </Row>
           <PHeading>Komentarz</PHeading>
-          <form
+          <Form
             name="contact v1"
             method="post"
             data-netlify="true"
             onSubmit="submit"
-            // data-netlify-honeypot="bot-field"
           >
             <Input type="hidden" name="form-name" value="contact v1" />
-            {/* <Input type="hidden" name="bot-field" /> */}
+
             <Input type="text" name="first-name" placeholder="Imię lub Nick" />
             <Input id="email" type="email" name="email" placeholder="Email" />
             <TextArea
@@ -116,7 +115,7 @@ const Comment = () => {
             <BtnWrap>
               <BtnLink type="submit">Wyślij</BtnLink>
             </BtnWrap>
-          </form>
+          </Form>
         </CommentWrap>
       </CommentSection>
     </>
