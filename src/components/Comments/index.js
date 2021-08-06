@@ -99,7 +99,7 @@ const Comment = () => {
           <PHeading>Komentarz</PHeading>
           <Form
             name="contact v1"
-            method="POST"
+            method="post"
             data-netlify="true"
             onSubmit="submit"
             // data-netlify-honeypot="bot-field"
