@@ -97,7 +97,7 @@ const Comment = () => {
             </Popup>
           </Row>
           <PHeading>Komentarz</PHeading>
-          <Form
+          <form
             name="contact v1"
             method="post"
             data-netlify="true"
@@ -116,7 +116,7 @@ const Comment = () => {
             <BtnWrap>
               <BtnLink type="submit">Wyślij</BtnLink>
             </BtnWrap>
-          </Form>
+          </form>
         </CommentWrap>
       </CommentSection>
     </>
