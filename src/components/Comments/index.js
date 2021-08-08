@@ -103,6 +103,7 @@ const Comment = () => {
             data-netlify="true"
             onSubmit="submit"
           >
+            <Input type="hidden" name="form-name" value="contact-form" />
             <Input type="text" name="name" placeholder="Imię lub Nick" />
             <Input id="email" type="email" name="email" placeholder="Email" />
             <TextArea
