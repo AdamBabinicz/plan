@@ -18,8 +18,8 @@ import {
   Form,
   Input,
 } from "../Comments/CommentElements";
-import img1 from "../../images/20.jpg";
-import img2 from "../../images/21.jpg";
+import img1 from "../../images/25.jpg";
+import img2 from "../../images/26.jpg";
 
 const Comment = () => {
   const [buttonPopup, setButtonPopup] = useState(false);
