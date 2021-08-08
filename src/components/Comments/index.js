@@ -99,7 +99,7 @@ const Comment = () => {
           <PHeading>Komentarz</PHeading>
           <Form>
             <Input type="text" name="name" placeholder="Imię lub Nick" />
-            <Input type="text" name="email" placeholder="Email" />
+            <Input type="email" name="email" placeholder="Email" />
             <TextArea
               type="textarea"
               name="message"
