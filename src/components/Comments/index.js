@@ -97,13 +97,7 @@ const Comment = () => {
             </Popup>
           </Row>
           <PHeading>Komentarz</PHeading>
-          <Form
-            name="contact-form"
-            method="post"
-            data-netlify="true"
-            onSubmit="submit"
-          >
-            <Input type="hidden" name="form-name" value="contact-form" />
+          <Form>
             <Input type="text" name="name" placeholder="Imię lub Nick" />
             <Input type="text" name="email" placeholder="Email" />
             <TextArea
