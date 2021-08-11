@@ -98,7 +98,7 @@ const Comment = () => {
             </Popup>
           </Row>
           <PHeading>Komentarz</PHeading>
-          {/* <Contact /> */}
+
           <Form
             name="contact"
             method="POST"
