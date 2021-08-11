@@ -100,7 +100,7 @@ const Comment = () => {
           <PHeading>Komentarz</PHeading>
           {/* <Contact /> */}
           <Form name="contact" method="POST" data-netlify="true">
-            <input type="hidden" name="form-name" value="contact"></input>
+            <Input type="hidden" name="form-name" value="contact"></Input>
             <Input type="text" name="name" placeholder="Imię lub Nick" />
             <Input type="email" name="email" placeholder="Email" />
             <TextArea
