@@ -16,7 +16,7 @@ const HeroSection = () => {
   const [state] = useState({
     title: "„Człowiek został powołany na świat, a więc jest światu potrzebny…”",
     img: img1,
-    p: "Plan to raczej powołanie, jakaś zmiana, nasze szczęście … Wyraz Jego miłości, która dla nas chce jak najlepiej. Choć to wszystko wciąż jest gotowe dla nas, potrzebna jest nasza zgoda – …",
+    p0: "Plan to raczej powołanie, jakaś zmiana, nasze szczęście … Wyraz Jego miłości, która dla nas chce jak najlepiej. Choć to wszystko wciąż jest gotowe dla nas, potrzebna jest nasza zgoda – …",
     em: "http://doniek.poczekaj.pl",
   });
   return (
@@ -134,7 +134,7 @@ const HeroSection = () => {
               <h3>{state.title}</h3>
               <br /> <br />
               <img src={state.img} alt="..." /> <br />
-              <p>{state.p}</p>
+              <p>{state.p0}</p>
               <em>{state.em}</em>
               <br />
             </Popup>

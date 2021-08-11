@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import Contact from "../Contact";
 import Popup from "../Popup";
 import {
   CommentSection,
@@ -26,7 +27,7 @@ const Comment = () => {
   const [state] = useState({
     title: "Jezus powiedział do tłumów:",
     img: img1,
-    p: "„Z kim mam porównać to pokolenie? Podobne jest do przesiadujących na rynku dzieci, które głośno przymawiają swym rówieśnikom: „Przygrywaliśmy wam, a nie tańczyliście; biadaliśmy, a wy nie zawodziliście”. Przyszedł bowiem Jan, nie jadł ani nie pił, a oni mówią: „Zły duch go opętał”. Przyszedł Syn Człowieczy, je i pije, a oni mówią: „Oto żarłok i pijak, przyjaciel celników i grzeszników”. A jednak mądrość usprawiedliwiona jest przez swe czyny”.",
+    p0: "„Z kim mam porównać to pokolenie? Podobne jest do przesiadujących na rynku dzieci, które głośno przymawiają swym rówieśnikom: „Przygrywaliśmy wam, a nie tańczyliście; biadaliśmy, a wy nie zawodziliście”. Przyszedł bowiem Jan, nie jadł ani nie pił, a oni mówią: „Zły duch go opętał”. Przyszedł Syn Człowieczy, je i pije, a oni mówią: „Oto żarłok i pijak, przyjaciel celników i grzeszników”. A jednak mądrość usprawiedliwiona jest przez swe czyny”.",
     em: "https://profeto.pl",
     title1: "Św. Paweł pisze:",
     img1: img2,
@@ -91,13 +92,15 @@ const Comment = () => {
               <h3>{state.title}</h3>
               <br />
               <img src={state.img} alt="..." /> <br />
-              <p>{state.p}</p>
+              <p>{state.p0}</p>
               <em>{state.em}</em>
               <br />
             </Popup>
           </Row>
           <PHeading>Komentarz</PHeading>
-          <Form>
+          {/* <Contact /> */}
+          <Form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact"></input>
             <Input type="text" name="name" placeholder="Imię lub Nick" />
             <Input type="email" name="email" placeholder="Email" />
             <TextArea

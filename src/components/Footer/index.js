@@ -132,7 +132,7 @@ const Footer = () => {
       </FooterSection>
       <CopySection>
         <p>
-          Radom 2021 - {new Date().getFullYear()}.{" "}
+          Radom 2021 - {new Date().getFullYear()}.
           <LinkCopy
             to="//a-g.netlify.app"
             target="_blank"
