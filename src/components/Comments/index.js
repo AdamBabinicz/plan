@@ -99,16 +99,16 @@ const Comment = () => {
           </Row>
           <PHeading>Komentarz</PHeading>
 
-          <form
+          <Form
             name="contact"
             method="post"
             data-netlify="true"
             onSubmit="submit"
           >
-            <input type="hidden" name="form-name" value="contact"></input>
-            <input type="text" name="name" placeholder="Imię lub Nick" />
-            <input type="email" name="email" placeholder="Email" />
-            <textarea
+            <Input type="hidden" name="form-name" value="contact"></Input>
+            <Input type="text" name="name" placeholder="Imię lub Nick" />
+            <Input type="email" name="email" placeholder="Email" />
+            <TextArea
               type="textarea"
               name="message"
               placeholder="Komentarz ..."
@@ -116,7 +116,7 @@ const Comment = () => {
             <BtnWrap>
               <BtnLink type="submit">Wyślij</BtnLink>
             </BtnWrap>
-          </form>
+          </Form>
         </CommentWrap>
       </CommentSection>
     </>
