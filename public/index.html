@@ -58,31 +58,25 @@
     />
     <title>Boży plan Beaty</title>
   </head>
+  <Form
+            name="contact"
+            data-netlify="true"
+            onSubmit="submit"
+            data-netlify-honeypot="bot-field"
+          >
+            <Input type="hidden" name="form-name" value="contact"></Input>
+            <Input type="text" name="name" placeholder="Imię lub Nick" />
+            <Input type="email" name="email" placeholder="Email" />
+            <TextArea
+              type="textarea"
+              name="message"
+              placeholder="Komentarz ..."
+            ></TextArea>
+            <BtnWrap>
+              <BtnLink type="submit">Wyślij</BtnLink>
+            </BtnWrap>
+          </Form>
   <body>
-    <form name="contact" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="contact" />
-      <p>
-        <label>Your Name: <input type="text" name="name" /></label>
-      </p>
-      <p>
-        <label>Your Email: <input type="email" name="email" /></label>
-      </p>
-      <p>
-        <label
-          >Your Role:
-          <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select></label
-        >
-      </p>
-      <p>
-        <label>Message: <textarea name="message"></textarea></label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script src="https://skrypt-cookies.pl/id/bc97833d298d0954.js"></script>

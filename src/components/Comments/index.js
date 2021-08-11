@@ -99,7 +99,13 @@ const Comment = () => {
           </Row>
           <PHeading>Komentarz</PHeading>
           {/* <Contact /> */}
-          <Form name="contact" method="POST" data-netlify="true">
+          <Form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            onSubmit="submit"
+            data-netlify-honeypot="bot-field"
+          >
             <Input type="hidden" name="form-name" value="contact"></Input>
             <Input type="text" name="name" placeholder="Imię lub Nick" />
             <Input type="email" name="email" placeholder="Email" />
