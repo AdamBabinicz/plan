@@ -120,11 +120,11 @@ const Footer = () => {
           <Col>
             <h3>Kontakt</h3>
             <Form>
-              <Input type="text" placeholder="Name" />
-              <Input type="text" placeholder="Email" />
-              <TextArea type="textarea" placeholder="Messages" />
+              <Input type="text" placeholder="Imię lub Nick" />
+              <Input type="email" placeholder="Email" />
+              <TextArea type="textarea" placeholder="Wiadomość" />
               <ButtonReplay>
-                <LinkBtn to="/">Wyślij</LinkBtn>
+                <LinkBtn type="submit">Wyślij</LinkBtn>
               </ButtonReplay>
             </Form>
           </Col>
