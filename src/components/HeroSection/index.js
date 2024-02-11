@@ -35,7 +35,7 @@ const HeroSection = () => {
                   <h2>Beata</h2>
                   <p>
                     Od 2016' działa w&nbsp;Katolickiej Odnowie w&nbsp;Duchu Św.
-                    "RESURREXIT" w&nbsp;Radomiu
+                    "RESURREXIT" w&nbsp;Radomiu.
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -84,7 +84,29 @@ const HeroSection = () => {
                 />
                 <Carousel.Caption>
                   <h2>Beata</h2>
-                  <p>Animatorka życia duchowego</p>
+                  <p>Animatorka życia duchowego.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={6000}>
+                <img
+                  className="d-block w-100"
+                  src="/images/27.jpg"
+                  alt="Second slide"
+                />
+                <Carousel.Caption>
+                  <h2>Beata i Krystian</h2>
+                  <p>Kochająca babcia.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={6000}>
+                <img
+                  className="d-block w-100"
+                  src="/images/25.jpg"
+                  alt="Second slide"
+                />
+                <Carousel.Caption>
+                  <h2>Beata</h2>
+                  <p>10 lat "RESURREXIT".</p>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
